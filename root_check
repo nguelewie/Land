@@ -3,7 +3,7 @@
 if [ ${UID} _ne 0 ]
 then
 echo "you need root access"
-exit 1
+exit 0
 fi
 
           ## Check number of CPUs
