@@ -9,11 +9,10 @@ exit 1
 fi
 
           ## Check number of CPUs
-	  if [ `nproc` -eq 1 ]
-	  then
-		  echo
-		  cho "the server is small"
-		  exit 2
-	  fi
+if [ `nproc` -eq 1 ]
+then
+echo "the server is small"
+exit 2
+fi
 
 
